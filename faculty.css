@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: aliceblue;
+    
+}
+.nav h1 a{
+    color:rgb(0, 0, 0);
+    font-style: italic;
+}
+.menu-bar ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(119, 190, 39, 0.822),rgba(8, 8, 8, 0.774)), url(cit.png);
+    background-position: center;
+    background-size: cover;
+}
+table{
+    margin: 0 10px;
+    border: 2px solid white;
+    text-align: center;
+}
+table tr th{
+    padding:5px;
+    color: aliceblue;
+}
+.content{
+    display: flex;
+    margin-left: 35px;
+    margin-top: 20px;
+    backdrop-filter: blur(10px);
+    width: fit-content;
+}
+table td{
+    color: aliceblue;
+}
+.faculty{
+    color: rgb(50, 66, 53);
+    font-size: 70px;
+    width: 100%;
+    margin-left: 35%;
+    
+}

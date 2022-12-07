@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: aliceblue;
+    
+}
+.nav h1 a{
+    color:rgb(0, 0, 0);
+    font-style: italic;
+}
+.menu-bar ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(119, 190, 39, 0.822),rgba(8, 8, 8, 0.774)), url(cit.png);
+    background-position: center;
+    background-size: cover;
+}
+.container .content{
+    
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12%;
+}
+.content h1{
+    font-size: 100px;
+    font-style: italic;
+    color: aliceblue;
+}
+.content p{
+    color: aliceblue;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: italic;
+
+}

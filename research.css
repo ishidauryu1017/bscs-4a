@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: aliceblue;
+    
+}
+.nav h1 a{
+    color:rgb(0, 0, 0);
+    font-style: italic;
+}
+.menu-bar ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(119, 190, 39, 0.822),rgba(8, 8, 8, 0.774)), url(cit.png);
+    background-position: center;
+    background-size: cover;
+}
+.content table{
+    background-color: rgba(240, 248, 255, 0.74);
+    border: 1px solid black;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.content table td{
+    border: 1px solid black;
+    border-bottom: transparent;
+    border-right: transparent;
+    border-left: transparent;
+    padding: 0 20px;
+}
+.content table tr{
+    border: 1px solid black;
+}
+.content h1{
+    margin-left: 35%;
+}

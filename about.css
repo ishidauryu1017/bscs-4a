@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: aliceblue;
+    
+}
+.nav h1 a{
+    color:rgb(0, 0, 0);
+    font-style: italic;
+}
+.menu-bar ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(119, 190, 39, 0.822),rgba(8, 8, 8, 0.774)), url(cit.png);
+    background-position: center;
+    background-size: cover;
+}
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    padding: 20px;
+}
+.content .mission{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.content .vision{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    grid-row-start: 1;
+}
+.content .core-values{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 2;
+}
+.content .core-values h1{
+    color: aliceblue;
+}
+.content .core-values ul li{
+    color: aliceblue;
+    text-align: justify;
+}
+.content  h1{
+    color: aliceblue;
+    text-align: justify;
+}
+.content  p{
+    color: aliceblue;
+    text-align: justify;
+}
